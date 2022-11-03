@@ -1,0 +1,28 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+
+import { FontAwesomeComponent } from './FontAwesomeComponent';
+
+<Meta 
+    title="Feedback/FontAwesomeComponent" 
+    component={FontAwesomeComponent} 
+/>
+
+export const Template = (args) => <FontAwesomeComponent {...args} />;
+
+# FontAwesomeComponent
+
+## Basic Usage
+
+```JSX
+<FontAwesomeComponent />
+```
+
+<Canvas>
+    <Story name="Basic Usage">
+        {Template.bind({})}
+    </Story>
+</Canvas>
+
+### FontAwesomeComponent Props
+
+<ArgsTable of={FontAwesomeComponent} />
