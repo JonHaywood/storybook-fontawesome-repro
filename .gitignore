@@ -1,0 +1,5 @@
+.log
+\*\build
+.DS_Store
+.eslintcache
+node_modules

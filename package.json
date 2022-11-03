@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "name": "storybook-fontawesome-repro",
+    "workspaces": [
+        "vendor/*",
+        "example"
+    ]
+}
